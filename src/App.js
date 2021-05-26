@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import Dashboard,{NextLayer} from './components/dashborad';
+
+
+// import  ListTemplate from './components/ListTemplate';
+// import Practice from './components/Practice'
+
+import Dashboard from './components/Dashboard/Dashboard';
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header';
+import ParentComp from './components/HOC/ParentComp';
+import MyPerent from './components/Dashboard/MyParent'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2> my react application</h2>
+      {/* <Dashboard />
+      <NextLayer/> */}
+      {/* <Practice/> */}
+
+      {/* <Header/>
+      <Dashboard/>
+      <Footer/> */}
+
+      {/* <ParentComp/> */}  
+      <MyPerent/>
+
     </div>
   );
 }
